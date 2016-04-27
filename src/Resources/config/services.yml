@@ -1,0 +1,11 @@
+services:
+    trivago.aspect.cacheable:
+        class: AsQuel\AopCacheBundle\Service\CachingAspect
+        calls:
+            - [ setContainer, [ '@service_container' ]]
+        arguments:
+            - %trivago.cacheable.default_cache_service_adapter%
+            - %trivago.cacheable.disabled_methods%
+            - %trivago.cacheable.default_ttl%
+        tags:
+            - { name: goaop.aspect }

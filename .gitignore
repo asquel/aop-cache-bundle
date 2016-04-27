@@ -1,0 +1,8 @@
+vendor/
+composer.lock
+.idea
+coverage.clover
+Tests/report
+_build/
+src/Tests/Kernel/cache
+src/Tests/Kernel/logs
