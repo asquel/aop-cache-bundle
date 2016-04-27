@@ -15,13 +15,13 @@ namespace AsQuel\AopCacheBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Class TrivagoAopCacheBundle
+ * Class AsQuelAopCacheBundle
  *
  * @package AsQuel\AopCacheBundle
- * @author Innovation Center Leipzig <team.leipzig@trivago.com>
- * @author Axel Barbier <roman.lasinski@trivago.com>
+ *
+ * @author Axel Barbier <axel.barbier@gmail.com>
  * @copyright 2012-2013 AsQuel
  */
-class TrivagoAopCacheBundle extends Bundle
+class AsQuelAopCacheBundle extends Bundle
 {
 }

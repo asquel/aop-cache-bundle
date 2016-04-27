@@ -7,7 +7,7 @@ framework:
     validation: { enable_annotations: true }
     translator: { fallbacks: [en] }
 
-trivago_aop_cache:
+asquel_aop_cache:
     disabled_methods:
         - Wrong\Namespace
 

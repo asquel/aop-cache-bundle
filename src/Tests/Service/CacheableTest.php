@@ -40,14 +40,14 @@ class CacheableTest extends WebTestCase
         $client    = static::createClient();
         $container = $client->getContainer();
 
-        return $container->get('trivago.aspect.cacheable');
+        return $container->get('asquel.aspect.cacheable');
     }
 
     public function testGetAspect() {
         $client    = static::createClient();
         $container = $client->getContainer();
 
-        $cacheAsp = $container->get('trivago.aspect.cacheable');
+        $cacheAsp = $container->get('asquel.aspect.cacheable');
         /**
          * @var CacheInterface $cacheServ
          */

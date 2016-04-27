@@ -1,4 +1,4 @@
-# Trivago AOP Cache Bundle
+# AOP Cache Bundle
 
 This bundle allows "method caching" it takes the arguments of the method as a cache key (or the result from a specific method call)
 and cache the result from the method.
@@ -10,7 +10,7 @@ Installation of goaop-symfony-bundle (https://github.com/goaop/goaop-symfony-bun
 ## Config : 
 
 ```
-trivago_aop_cache:
+asquel_aop_cache:
     default_ttl: 3600
     default_cache_service_adapter: AsQuel\CacheBundle\Adapters\DoctrineCacheAdapter
     disabled_methods:

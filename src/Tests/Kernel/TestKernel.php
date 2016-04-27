@@ -6,7 +6,7 @@
  * All rights reserved.
  *
  * @since 13.06.13
- * @author Innovation Center Leipzig <team.leipzig@trivago.com>
+ *
  * @author Axel Barbier <axel.barbier@gmail.com>
  * @copyright 2012-2013 AsQuel
  */
@@ -16,7 +16,7 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 /**
  * Class TestKernel
  *
- * @author Innovation Center Leipzig <team.leipzig@trivago.com>
+ *
  * @author Axel Barbier <axel.barbier@gmail.com>
  * @copyright 2012-2013 AsQuel
  */
@@ -29,7 +29,7 @@ class TestKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
             new Tedivm\StashBundle\TedivmStashBundle(),
-            new AsQuel\AopCacheBundle\TrivagoAopCacheBundle()
+            new AsQuel\AopCacheBundle\AsQuelAopCacheBundle()
         );
 
         return $bundles;

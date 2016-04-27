@@ -18,14 +18,14 @@ use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 /**
- * Class TrivagoAopCacheExtension
+ * Class AsQuelAopCacheExtension
  *
  * @package   AsQuel\AopCacheBundle\DependencyInjection
  *
  * @author    Axel Barbier <axel.barbier@gmail.com>
  * @copyright 2012-2013 AsQuel
  */
-class TrivagoAopCacheExtension extends Extension
+class AsQuelAopCacheExtension extends Extension
 {
     /**
      * Loads a specific configuration.

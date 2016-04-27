@@ -19,7 +19,7 @@ use AsQuel\AopCacheBundle\Annotation\Cacheable;
 /**
  * Class AnnotationHelper
  *
- * @package   Trivago
+ * @package   Asquel
  *
  * @author    Axel Barbier <axel.barbier@gmail.com>
  * @copyright 2012-2013 AsQuel
